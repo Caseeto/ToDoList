@@ -13,7 +13,7 @@ app.use(express.static("public"));
 
 var items=[];
 
-mongoose.connect("mongodb://127.0.0.1:27017/todolistDB",  {});
+mongoose.connect(""mongodb+srv://ashishsaranshi:ashuas@cluster0.xriv1c7.mongodb.net/todolistDB",  {});
 const itemsSchema = {
   name: String
 };
